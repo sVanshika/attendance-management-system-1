@@ -42,7 +42,7 @@ $absent=$array2['absent'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>attendance</title>
+    <title>BeingThere - View Insights</title>
 <!--  Fontawesome  -->
 <link href="../fontawesome/css/all.css" rel="stylesheet"> 
     <script defer src="../fontawesome/js/all.js"></script> 

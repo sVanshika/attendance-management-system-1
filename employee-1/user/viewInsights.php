@@ -43,13 +43,13 @@ $absent=$array2['absent'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>attendance</title>
-
-        <!--  Bootstrap  -->
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
- 
+<!--  Fontawesome  -->
+<link href="../fontawesome/css/all.css" rel="stylesheet"> 
+    <script defer src="../fontawesome/js/all.js"></script> 
     
+    <!--  Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ 
    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
  
@@ -117,7 +117,7 @@ $absent=$array2['absent'];
         </div>
         <div class="group">
             <div class="navItem" class="logo">
-                <img src="../img/attendance.png" width=22px>
+            <i class="fas fa-plus-circle" style="color:white;"></i>
                 <a href="../user/dashboard.php" class="navItemLink" style="text-decoration: none;">Attendance</a>
             </div>
           <!--  <div class="navItem" class="logo">
@@ -133,15 +133,15 @@ $absent=$array2['absent'];
                 <a href="../admin/admin.php" class="navItemLink" style="text-decoration: none;">Admin</a>
             </div>  -->
             <div class="navItem" class="logo">
-            <img src="../img/graph.png" width=22px>
+            <i class="fas fa-chart-line" style="color:white;"></i>
                 <a href="../user/viewInsights.php" class="navItemLink" style="text-decoration: none;">View Insights</a>
             </div>
             <div class="navItem" class="logo">
-            <img src="../img/view.png" width=22px>
+            <i class="far fa-user-circle" style="color:white;"></i>
                 <a href="../user/profileUser.php" class="navItemLink" style="text-decoration: none;">Your Profile</a>
             </div>
             <div class="navItem" class="logo">
-            <img src="../img/logout.png" width=22px>
+            <i class="fas fa-sign-out-alt navItemLink" style="color:white;"></i>
                 <a href="../logout.php" class="navItemLink" style="text-decoration: none;">Logout</a>
             </div>
         </div>
@@ -149,7 +149,6 @@ $absent=$array2['absent'];
 
     </nav>
 </div>
-
 <!-- NavBar ends-->
 
 
